@@ -1,0 +1,57 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Joseph LeRoy"
+  subtitle    = "Defensive Security, Network Forensics, and Systems Engineering."
+  copyright   = "© 2016 - 2018"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Defensive Security, Network Forensics, and Systems Enginering."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "josephbleroy"
+  fbName = ""
+  githubName = "josephbleroy"
+
+  logo = ""
+  orgName = ""
+  orgWebsite = "https://www.josephbleroy.com"
+  orgDescription = ""
+
+  author = "Joseph LeRoy"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Tokyo, JP"
+  authorWebsite = "https://www.josephbleroy.com"
+  authorDescription = "Security Engineer currently living in Tokyo, Japan."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Linux"
+  url = "/tags/linux/"
+  weight = 100
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
