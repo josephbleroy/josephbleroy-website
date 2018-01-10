@@ -1,7 +1,0 @@
-box: debian
-build:
-  steps:
-    - arjen/hugo-build:
-        version: "0.32.2"
-        theme: casper-two
-        flags: --buildDrafts=true
